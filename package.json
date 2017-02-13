@@ -1,0 +1,14 @@
+{
+  "name": "sennin",
+  "version": "0.0.1",
+  "description": "A translation Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Daryl Enriquez",
+  "devDependencies": {
+    "electron": "^1.4.1",
+    "js-yaml":"3.8.1"
+  }
+}

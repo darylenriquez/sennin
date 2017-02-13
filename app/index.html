@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/app.css">
+  </head>
+  <body>
+    <div class='container'>
+      <div class='input-box'>
+        <div class='inputs'>
+          <div class='select-box'>
+            <select name="select" id="source-language">
+              <option value="en">en</option>
+              <option value="ja" selected>ja</option>
+              <option value="tl">tl</option>
+            </select>
+          </div>
+          <input name='text' id='text-input' placeholder='Input Text' />
+        </div>
+        <div class='actions'>
+          <a href='#' id='mic-control'>
+            <img src='images/mic.png'>
+          </a>
+          <a href='#' id='input-control'>
+            <img src='images/arrow.png'>
+          </a>
+          <div class='select-box'>
+            <select name="select" id="target-language">
+              <option value="en">en</option>
+              <option value="ja" selected>ja</option>
+              <option value="tl">tl</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class='output-box'>
+        <h5 id='action-label'>Translation</h5>
+        <p id='translation-result'></p>
+      </div>
+    </div>
+    <script src="scripts/translation.js"></script>
+  </body>
+</html>
